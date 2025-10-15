@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /*
 编写一个函数来查找字符串数组中的最长公共前缀。
 
@@ -16,7 +18,8 @@ package main
 解释：输入不存在公共前缀。
 */
 func main() {
-
+	strings := []string{"flower", "flow", "flight"}
+	fmt.Println(longestCommonPrefix(strings))
 }
 
 func longestCommonPrefix(strs []string) string {
